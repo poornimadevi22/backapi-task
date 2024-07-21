@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+</head>
+<body>
+    <h1>User Management</h1>
+
+    <h2>Add User</h2>
+    <form id="addUserForm">
+        <input type="text" id="first_name" placeholder="FirstName" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <button type="submit">Add User</button>
+    </form>
+
+    <h2>Update User</h2>
+    <form id="updateUserForm">
+        <input type="text" id="updateId" placeholder="User ID" required>
+        <input type="text" id="updateName" placeholder="Name">
+        <input type="email" id="updateEmail" placeholder="Email">
+        <input type="number" id="updateAge" placeholder="Age">
+        <button type="submit">Update User</button>
+    </form>
+
+    <h2>Users List</h2>
+    <div id="usersList"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
